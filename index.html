@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SecurePass | Password Security</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🔐 SecurePass</h1><br>
+    
+
+    <h2>Protect Your Digital World</h2>
+
+    <p>
+
+<section id="analyzer" class="analyzer-section">
+
+    <h2>Password Strength Analyzer</h2>
+
+    <p class="subtitle">
+        Check how secure your password is.
+    </p>
+
+    <div class="analyzer-box">
+
+        <label for="password">Enter Your Password</label>
+
+        <div class="password-input">
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter a sample password"
+            >
+
+            <button onclick="togglePassword()">
+                Show
+            </button>
+        </div>
+
+        <div class="strength-info">
+            <span>Strength Level</span>
+            <span id="strengthText">Not checked</span>
+        </div>
+
+        <div class="strength-bar">
+            <div id="strengthFill"></div>
+        </div>
+
+        <h3>Security Checklist</h3>
+
+        <div class="check-item" id="lengthCheck">
+            ○ At least 12 characters
+        </div>
+
+        <div class="check-item" id="upperCheck">
+            ○ Uppercase letters
+        </div>
+
+        <div class="check-item" id="lowerCheck">
+            ○ Lowercase letters
+        </div>
+
+        <div class="check-item" id="numberCheck">
+            ○ Numbers
+        </div>
+
+        <div class="check-item" id="symbolCheck">
+            ○ Special characters
+        </div>
+
+        <h3>Improvement Suggestions</h3>
+
+        <div id="suggestions">
+            Start typing to analyze your password.
+        </div>
+
+    </div>
+
+</section>
+
+        Welcome to SecurePass.
+        Your smart password security assistant.
+    </p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
